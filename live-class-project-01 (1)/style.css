@@ -1,0 +1,142 @@
+/* body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar-container img {
+  max-height: 40px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.list-item {
+  margin-right: 20px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.square,
+.star,
+.globe {
+  position: absolute;
+}
+
+.square img,
+.star img,
+.globe img {
+  max-width: 100%;
+  height: auto;
+}
+
+.square {
+  top: -50px;
+  left: -50px;
+}
+
+.star {
+  top: -100px;
+  right: -50px;
+}
+
+.globe {
+  bottom: -50px;
+  left: -50px;
+}
+
+.hero-container-right {
+  max-width: 500px;
+}
+
+.hero-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.button-email,
+.button-join {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contact-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons span {
+  margin-right: 10px;
+}
+
+.icons img {
+  max-height: 20px;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/backcover.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu {
+  margin-right: 60px;
+}
+.menu span {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: darkblue;
+  font-weight: bold;
+}
+.logo img {
+  margin-left: 200px;
+}
+.signin button {
+  margin-right: 150px;
+  padding: 5px 15px;
+  background: linear-gradient(to right, rgb(70, 50, 168), rgb(245, 118, 230));
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  border: transparent;
+  color: white;
+}
+.content {
+  display: flex;
+}
+.right {
+  margin-right: 80px;
+}
+.left {
+  margin-left: 200px;
+  align-self: flex-start;
+  margin-top: 160px;
+}
+.heading {
+  font-size: 60px;
+  font-weight: bold;
+  color: darkblue;
+}
+.description {
+  margin-top: 45px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.learn-more-btn {
+  padding: 5px 15px;
+  background: linear-gradient(to right, rgb(70, 50, 168), rgb(245, 118, 230));
+  font-size: 30px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  border: transparent;
+  color: white;
+  margin-top: 40px;
+}
+.left img {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
